@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-
 namespace Webkul\Installer\Database\Seeders\Attribute;
+
+use Illuminate\Support\Facades\Schema;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
