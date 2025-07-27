@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
+
 namespace Webkul\Installer\Database\Seeders\Attribute;
 
 use Illuminate\Database\Seeder;
@@ -15,7 +17,7 @@ class AttributeGroupTableSeeder extends Seeder
      */
     public function run($parameters = [])
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        Schema::disableForeignKeyConstraints();
 
         DB::table('attribute_groups')->delete();
 
@@ -234,6 +236,6 @@ class AttributeGroupTableSeeder extends Seeder
             ],
         ]);
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+        Schema::disableForeignKeyConstraints();
     }
 }

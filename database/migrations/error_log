@@ -1,0 +1,4 @@
+[27-Jul-2025 07:09:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Migrations\Migration" not found in /home/arixmyii/bittoz.shop/public_html/database/migrations/2023_10_05_163612_create_visits_table.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/arixmyii/bittoz.shop/public_html/database/migrations/2023_10_05_163612_create_visits_table.php on line 7
